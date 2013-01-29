@@ -23,8 +23,8 @@ ln -s ~/.vim/.gvimrc ~/.gvimrc
 touch ~/.vim/.vimrc_local
 touch ~/.vim/.gvimrc_local
 
-mkdir -p ~/.vim/vundle
-cd ~/.vim/vundle && git clone git://github.com/gmarik/vundle.git .
+mkdir -p ~/.vim/bundle/vundle
+cd ~/.vim/bundle/vundle && git clone git://github.com/gmarik/vundle.git .
 vim +BundleInstall +qall
 
 # install monaco font
