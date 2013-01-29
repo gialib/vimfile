@@ -29,7 +29,7 @@ set noswapfile
 filetype plugin indent on  
 
 " 把 F8 映射到 启动NERDTree插件  
-" map <F8> :NERDTree<CR>  
+" map <F8> :NERDTree<CR>
 " 把 CTRL-S 映射为 保存,因为这个操作做得太习惯了  
 " imap <C-S> <C-C>:w<CR>  
 
@@ -46,9 +46,11 @@ let g:rsenseUseOmniFunc = 1
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 " Command-T
-let g:CommandTMaxFiles=20000
-set wildignore+=public,.git 
-map <F9> :CommandTFlush<CR>
+" let g:CommandTMaxFiles=20000
+" map <F9> :CommandTFlush<CR>
+
+" set wildignore+=public,.git 
+set wildignore+=.git 
 
 let g:Powerline_symbols = 'fancy'
 
@@ -71,5 +73,11 @@ set tabstop=2
 set cindent shiftwidth=4
 set autoindent shiftwidth=4
 
+" keyboard settings ###########################################
+map <F8> :NERDTreeToggle<CR>
+map <F7> :BufExplorer<CR>
+
 " local
 source ~/.vim/.vimrc_local
+
+
