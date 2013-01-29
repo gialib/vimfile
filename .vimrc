@@ -25,7 +25,6 @@ set hlsearch
 " 不生成swp文件
 set noswapfile
 
-
 filetype plugin indent on  
 
 " 把 F8 映射到 启动NERDTree插件  
@@ -69,6 +68,25 @@ set laststatus=2
 set tabstop=2
 set cindent shiftwidth=4
 set autoindent shiftwidth=4
+
+" luonet config here
+set autoindent
+set hlsearch
+set incsearch
+set number
+set expandtab
+set ruler
+set nobackup
+set showcmd
+set cursorline
+"set linespace=0 " No extra spaces between rows"
+set wildmenu " show list instead of just completing
+set wildmode=list:longest,full " command <Tab> completion, list matches, then longest common part, then all.
+
+set encoding=utf-8
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1 " 如果你要打开的文件编码不在此列，那就添加进去
+set termencoding=utf-8
+
 
 " 让nerdtree show hidden files and folders
 let NERDTreeShowHidden=1
