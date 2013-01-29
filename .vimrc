@@ -76,6 +76,8 @@ set autoindent shiftwidth=4
 " keyboard settings ###########################################
 map <F8> :NERDTreeToggle<CR>
 map <F7> :BufExplorer<CR>
+noremap <silent>nf :NERDTreeFind<CR>
+" noremap <silent>nt :BufExplorer<CR>
 
 " local
 source ~/.vim/.vimrc_local
