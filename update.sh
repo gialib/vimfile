@@ -8,3 +8,4 @@ echo 'vim +BundleInstall +qall'
 vim +BundleInstall +qall
 
 echo 'updated successful!'
+
