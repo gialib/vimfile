@@ -61,9 +61,6 @@ set wrap
 behave mswin
 let Tlist_Use_Right_Window=1
 
-" 让nerdtree show hidden files and folders
-let NERDTreeShowHidden=1
-
 " tab宽度  
 set tabstop=2 shiftwidth=2 softtabstop=2
 set list
@@ -72,6 +69,9 @@ set laststatus=2
 set tabstop=2
 set cindent shiftwidth=4
 set autoindent shiftwidth=4
+
+" 让nerdtree show hidden files and folders
+let NERDTreeShowHidden=1
 
 " keyboard settings ###########################################
 map <F8> :NERDTreeToggle<CR>
