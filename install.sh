@@ -36,3 +36,6 @@ sudo fc-cache -f -v
 
 # install ctags
 sudo apt-get install ctags
+
+# install ack-grep
+sudo apt-get install ack-grep
