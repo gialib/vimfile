@@ -78,7 +78,7 @@ set expandtab
 set ruler
 set nobackup
 set showcmd
-set cursorline      " 当前列高亮
+" set cursorline      " 当前列高亮
 set cursorcolumn    " 当前行高亮
 "set linespace=0 " No extra spaces between rows"
 set wildmenu " show list instead of just completing
