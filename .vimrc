@@ -66,8 +66,8 @@ set list
 set listchars=tab:,.,trail:.,extends:#,nbsp:. " 高亮显示结尾没有用的空格等，Highlight problematic whitespace
 set laststatus=2
 set tabstop=2
-set cindent shiftwidth=4
-set autoindent shiftwidth=4
+set cindent shiftwidth=2
+set autoindent shiftwidth=2
 
 " luonet config here
 set autoindent

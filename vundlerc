@@ -4,6 +4,8 @@ Bundle 'gmarik/vundle'
 
 " Bundle 'blogsoso/taskpaper.vim'
 
+Bundle 'airblade/vim-gitgutter'
+
 Bundle 'pangloss/vim-javascript'
 
 Bundle 'tpope/vim-rails'
