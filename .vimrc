@@ -6,7 +6,7 @@ source ~/.vim/vundlerc
 
 " set guifont=Ubuntu\ Mono\ 12
 
-set guifont=Monaco\ 10
+" set guifont=Monaco\ 10
 
 " 设定文件浏览器目录为当前目录  
 set bsdir=buffer  
