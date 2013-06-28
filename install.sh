@@ -22,6 +22,7 @@ ln -s ~/.vim/.gvimrc ~/.gvimrc
 
 touch ~/.vim/.vimrc_local
 touch ~/.vim/.gvimrc_local
+touch ~/.vim/vundlerc_local
 
 mkdir -p ~/.vim/bundle/vundle
 cd ~/.vim/bundle/vundle && git clone git://github.com/gmarik/vundle.git .

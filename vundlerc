@@ -40,6 +40,4 @@ Bundle 'majutsushi/tagbar'
 Bundle 'greyblake/vim-preview'
 Bundle 'jpo/vim-railscasts-theme'
 
-" F11全屏, F6 Open
-Bundle 'xolox/vim-shell'
 

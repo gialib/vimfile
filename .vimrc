@@ -3,6 +3,7 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 source ~/.vim/vundlerc
+source ~/.vim/vundlerc_local
 
 " set guifont=Ubuntu\ Mono\ 12
 
