@@ -10,6 +10,7 @@ sudo apt-get install vim vim-gtk
 ```
 # install monaco font
 
+mkdir -p  ~/tmp
 cd ~/tmp
 wget http://www.gringod.com/wp-upload/MONACO.TTF
 sudo cp MONACO.TTF /usr/share/fonts/truetype/
