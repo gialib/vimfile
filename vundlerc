@@ -40,4 +40,4 @@ Bundle 'majutsushi/tagbar'
 Bundle 'greyblake/vim-preview'
 Bundle 'jpo/vim-railscasts-theme'
 
-
+Bundle 'othree/html5.vim'
