@@ -16,7 +16,7 @@ set enc=utf-8
 " 设置文件编码  
 set fenc=utf-8  
 " 设置文件编码检测类型及支持格式  
-set fencs=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936  
+set fencs=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 " 设置开启语法高亮  
 syntax on  
 "显示行号  
@@ -25,6 +25,9 @@ set number
 set hlsearch  
 " 不生成swp文件
 set noswapfile
+
+" 开启粘贴模式
+set paste
 
 filetype plugin indent on  
 
