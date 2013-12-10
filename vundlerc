@@ -42,3 +42,5 @@ Bundle 'jpo/vim-railscasts-theme'
 
 Bundle 'othree/html5.vim'
 Bundle 'hail2u/vim-css3-syntax'
+
+Bundle 'edsono/vim-matchit'
