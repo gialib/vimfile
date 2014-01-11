@@ -2,6 +2,8 @@
 
 -> 请备份你之前的vimrc!!!
 
+## On Ubuntu
+
 ```
 # install gvim
 sudo apt-get install vim vim-gtk
@@ -25,5 +27,5 @@ sudo apt-get install ack-grep
 
 ```
 
-bash <(curl -s https://raw.github.com/blogsoso/vimfile/master/install.sh)
+bash <(curl -s https://raw.github.com/xiuxian123/vimfile/master/install.sh)
 

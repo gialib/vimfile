@@ -83,7 +83,7 @@ set ruler
 set nobackup
 set showcmd
 " set cursorline      " 当前列高亮
-set cursorcolumn    " 当前行高亮
+" set cursorcolumn    " 当前行高亮
 "set linespace=0 " No extra spaces between rows"
 set wildmenu " show list instead of just completing
 set wildmode=list:longest,full " command <Tab> completion, list matches, then longest common part, then all.
