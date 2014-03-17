@@ -46,3 +46,5 @@ Bundle 'hail2u/vim-css3-syntax'
 Bundle 'edsono/vim-matchit'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'moll/vim-node'
+Bundle 'vim-scripts/grep.vim'
+

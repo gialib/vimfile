@@ -99,8 +99,10 @@ let NERDTreeShowHidden=1
 " keyboard settings ###########################################
 map <F8> :NERDTreeToggle<CR>
 map <F7> :BufExplorer<CR>
+noremap <silent>be :BufExplorer<CR>
 noremap <silent>nf :NERDTreeFind<CR>
-" noremap <silent>nt :BufExplorer<CR>
+noremap <silent>nt :NERDTree<CR>
+noremap <silent>gb :Gblame<CR>
 
 " local
 source ~/.vim/.vimrc_local
