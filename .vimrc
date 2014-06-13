@@ -82,9 +82,11 @@ set expandtab
 set ruler
 set nobackup
 set showcmd
+
 " set cursorline      " 当前列高亮
 " set cursorcolumn    " 当前行高亮
-"set linespace=0 " No extra spaces between rows"
+" set linespace=0 " No extra spaces between rows"
+
 set wildmenu " show list instead of just completing
 set wildmode=list:longest,full " command <Tab> completion, list matches, then longest common part, then all.
 
@@ -103,8 +105,7 @@ noremap <silent>be :BufExplorer<CR>
 noremap <silent>nf :NERDTreeFind<CR>
 noremap <silent>nt :NERDTree<CR>
 noremap <silent>gb :Gblame<CR>
+noremap <silent>ct :!ctags --exrra=+f --exclude=.git --exclude=.js --exclude=.css --exclude=log -R * `rvm gemdir`/gems/*<CR><CR>
 
 " local
 source ~/.vim/.vimrc_local
-
-
