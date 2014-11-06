@@ -48,3 +48,4 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'moll/vim-node'
 Bundle 'vim-scripts/grep.vim'
 
+Bundle 'fatih/vim-go'
