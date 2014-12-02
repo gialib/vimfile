@@ -110,30 +110,34 @@ noremap <silent>ct :!ctags --exrra=+f --exclude=.git --exclude=.js --exclude=.cs
 " local
 source ~/.vim/.vimrc_local
 
-let g:tagbar_type_go = {
-    \ 'ctagstype' : 'go',
-    \ 'kinds'     : [
-        \ 'p:package',
-        \ 'i:imports:1',
-        \ 'c:constants',
-        \ 'v:variables',
-        \ 't:types',
-        \ 'n:interfaces',
-        \ 'w:fields',
-        \ 'e:embedded',
-        \ 'm:methods',
-        \ 'r:constructor',
-        \ 'f:functions'
-    \ ],
-    \ 'sro' : '.',
-    \ 'kind2scope' : {
-        \ 't' : 'ctype',
-        \ 'n' : 'ntype'
-    \ },
-    \ 'scope2kind' : {
-        \ 'ctype' : 't',
-        \ 'ntype' : 'n'
-    \ },
-    \ 'ctagsbin'  : 'gotags',
-    \ 'ctagsargs' : '-sort -silent'
-\ }
+vmap "+y :w !pbcopy<CR><CR> 
+nmap "+p :r !pbpaste<CR><CR>
+
+" let g:tagbar_type_go = {
+"     \ 'ctagstype' : 'go',
+"     \ 'kinds'     : [
+"         \ 'p:package',
+"         \ 'i:imports:1',
+"         \ 'c:constants',
+"         \ 'v:variables',
+"         \ 't:types',
+"         \ 'n:interfaces',
+"         \ 'w:fields',
+"         \ 'e:embedded',
+"         \ 'm:methods',
+"         \ 'r:constructor',
+"         \ 'f:functions'
+"     \ ],
+"     \ 'sro' : '.',
+"     \ 'kind2scope' : {
+"         \ 't' : 'ctype',
+"         \ 'n' : 'ntype'
+"     \ },
+"     \ 'scope2kind' : {
+"         \ 'ctype' : 't',
+"         \ 'ntype' : 'n'
+"     \ },
+"     \ 'ctagsbin'  : 'gotags',
+"     \ 'ctagsargs' : '-sort -silent'
+" \ }
+
