@@ -27,5 +27,5 @@ sudo apt-get install ack-grep
 
 ```
 
-bash <(curl -s https://raw.github.com/xiuxian123/vimfile/master/install.sh)
+bash <(curl -s https://raw.github.com/gialib/vimfile/master/install.sh)
 

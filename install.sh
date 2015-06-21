@@ -5,7 +5,7 @@ mv ~/.vim ~/tmp/vim-backup
 
 # git clone git@github.com:blogsoso/vimfile.git ~/.vim
 
-git clone https://github.com/xiuxian123/vimfile.git ~/.vim
+git clone https://github.com/gialib/vimfile.git ~/.vim
 
 cd ~/.vim
 
