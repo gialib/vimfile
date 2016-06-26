@@ -1,6 +1,6 @@
 
 echo 'vim +BundleInstall +qall'
-vim +BundleInstall +qall
+vi +BundleInstall +qall
 
 echo 'bundle successful!'
 

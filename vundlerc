@@ -49,3 +49,8 @@ Bundle 'moll/vim-node'
 Bundle 'vim-scripts/grep.vim'
 
 Bundle 'fatih/vim-go'
+
+Bundle 'elixir-lang/vim-elixir'
+Bundle 'tpope/vim-haml'
+
+Bundle 'nikvdp/ejs-syntax'
