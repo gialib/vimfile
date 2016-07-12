@@ -1,5 +1,7 @@
 ## Happy Vimfile
 
+Hello world
+
 -> 请备份你之前的vimrc!!!
 
 ## On Ubuntu
@@ -28,4 +30,3 @@ sudo apt-get install ack-grep
 ```
 
 bash <(curl -s https://raw.github.com/gialib/vimfile/master/install.sh)
-
