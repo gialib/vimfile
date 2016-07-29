@@ -53,7 +53,7 @@ set autoindent shiftwidth=2
 " set statusline=%F%m%r%h%w\[POS=%l,%v][%p%%]\%{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 
 " luonet config here
-" set autoindent
+set autoindent
 " 查找结果高亮度显示  
 set hlsearch
 set incsearch
@@ -80,8 +80,7 @@ let NERDTreeShowHidden=1
 
 " keyboard settings ###########################################
 map <F8> :NERDTreeToggle<CR>
-map <F7> :BufExplorer<CR>
-noremap <silent>be :BufExplorer<CR>
+map <F7> :BufExplorer<CR> noremap <silent>be :BufExplorer<CR>
 noremap <silent>nf :NERDTreeFind<CR>
 noremap <silent>nt :NERDTree<CR>
 noremap <silent>gb :Gblame<CR>
@@ -101,3 +100,5 @@ endif
 " local
 source ~/.vim/.vimrc_local
 
+"注释颜色
+highlight Comment ctermfg=green guifg=green guibg=white

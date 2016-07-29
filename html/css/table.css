@@ -1,0 +1,9 @@
+.two{
+  table-layout:fixed;
+}
+table{
+  border:3px solid blue:
+  border-spacing:10px;
+  empty-cells:hide;
+  border-collapse:collapse;
+}

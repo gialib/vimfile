@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style type="text/css">
+      #div1, #div2
+      { width:600px; height:335px; margin:10px;padding:10px;border:1px solid #aaaaaa;background-color:cyan;}
+    </style>
+    <script>
+    function onLoad()
+    {
+    setTimeout("window.history.back()",3000);
+    }
+      function mouseDown(obj)
+{
+  obj.style.backgroundColor="cyan";
+  obj.innerHTML="释放以恢复";
+}
+function mouseUp(obj)
+{
+  obj.style.backgroundColor="silver";
+  obj.innerHTML="按下以改变背景";
+}
+    </script>
+    <script src="drag.js">
+    </script>
+  </head>
+  <body onload="onLoad()">
+    <div id="div1" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <video controls="controls" src="http://www.w3school.com.cn/example/html5/mov_bbb.mp4" draggable="true" ondragstart="drag(event)" id="drag1">
+      </video>
+    </div>
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+/*background-color*/
+/*
+body{
+background-color : silver;
+background-image : url(ssss.jpg);
+background-repeat : repeat-y;
+background-size : auto;
+background-position : 50px 70px;
+}
+ */
+body{
+  background:silver url(ssss.jpg) no-repeat fixed 
+}
+
+nav{
+  height : 50px;
+  background :cyan;
+}
+
+a:link {color: black;}
+a:visited {color: #66CCFF;}
+a:hover {color: #FFFF33;}
+a:active {color: black}
+
+a{text-decoration : none;
+  font-size :20px;
+  padding:5px;
+}
+h1{
+  background-color : red;
+  font-size : 150%;
+}
+p{
+  background-color : cyan;
+  font:italic small-caps bold 42px/40px arial,sans-serif; 
+}
+p span{
+  color : red;
+}
+img{
+  background-color : yellow;
+}
+#p1{
+  text-indent : 2em;
+}
+[title]
+{
+  background-color : white;
+  line-height : 130px;
+}
