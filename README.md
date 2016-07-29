@@ -1,7 +1,7 @@
 # Ruby on Rails Tutorial: first application
 
 
-
+提交一次
  This is the first application for the
 
  [*Ruby on Rails Tutorial*](http://railstutorial.org/)
