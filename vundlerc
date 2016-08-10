@@ -54,3 +54,5 @@ Bundle 'elixir-lang/vim-elixir'
 Bundle 'tpope/vim-haml'
 
 Bundle 'nikvdp/ejs-syntax'
+Bundle 'rhysd/vim-crystal'
+Bundle 'solarnz/thrift.vim'
