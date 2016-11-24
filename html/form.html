@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="body.css" />
+    <title>form.html</title>
+    <meta name="revised" content="shisong,2016/07/14">
+    <meta name="generator" content="Vim">
+  </head>
+  <body>
+    <a href="#"> 没有下划线的链接</a>
+<div onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" background="cyan"></div>
+    <form action="" onsubmit="validate(this)"  autocomplete="on" method="post">
+      文本域:<input type="text" id="tf" name="tf"/>
+      <br/>
+      Name:<input type="text" id="name" onchange="upperCase()"/>
+      <br/>
+      密码域:<input type="password" id="pwd" />
+      <br/>
+      <br/>
+
+      复选框1:<input type="checkbox" id="cb1" name="cb" value="复选框1"/>
+      <br/>
+      复选框2:<input type="checkbox" id="cb2" name="cb" value="复选框2"/>
+      <br/>
+      复选框3:<input type="checkbox" id="cb3" name="cb" value="复选框3"/>
+      <br/>
+      <br/>
+
+      单选框1:<input type="radio" id="rb1" name="rb" value="单选框1"/>
+      <br/>
+      单选框2:<input type="radio" id="rb2" name="rb" value="单选框2"/>
+      <br/>
+      <br/>
+
+      下拉框1:<select>
+        <option>咖啡</option>
+        <option>果汁</option>
+        <option>牛奶</option>
+        <option>汽水</option>
+      </select>
+      <br/>
+      <br/>
+
+      下拉框2:<select>
+        <option>咖啡</option>
+        <option>果汁</option>
+        <option>牛奶</option>
+        <option selected="selected">汽水</option>
+      </select>
+      <br/>
+      <br/>
+
+      <textarea cols="30" rows="6" onmousedown="mouseDown(this)" onmouseup="mouseUp(this)">
+        文本域textarea
+        文本域textarea
+        文本域textarea
+        文本域textarea
+      </textarea>
+      <br/>
+      <br/>
+
+      <fieldset>
+        <legend>
+          健康信息
+        </legend>
+        身高：<input type="text" name="height" />
+        体重：<input type="text" name="height" />
+      </fieldset>
+      <br/>
+      <br/>
+
+      图像1:<img src="ssss.jpg" title="图像1" align="left" alt="图像1" usemap="map"/>
+      图像2:<img src="ssss.jpg" title="图像2" align="right" alt="图像2" usemap="map"/>
+      <map name="map">
+        <area shape="rect" coords="40,40,100,100" href="text.html" target="_blank" alt="text" title="text"/>
+        <area shape="circle" coords="40,40,100" href="apage.html" target="_blank" alt="apage" title="apaga"/>
+      </map>
+      <map name="map2">
+        <area shape="rect" coords="40,40,100,100" href="text.html" target="_blank" alt="text"/>
+        <area shape="circle" coords="40,40,100" href="apage.html" target="_blank" alt="apage"/>
+      </map>
+      <br/>
+      <br/>
+
+      <input type="submit" value="提交" />
+      <br/>
+      <br/>
+      <script type="text/javascript">
+        document.write("<h2>一段javascript<") 
+        document.write("/h2>")
+
+        //        function validate(thisform)
+        //{
+        //  with(thisform)
+        //  {
+        //    if(tf.value ==""||tf.value==null)
+        //      alert("不能为空");
+        //    else
+        //      alert("输入正确");
+        //  }
+        //}
+      </script>
+      <script src="validate.js"></script>
+      <script src="event.js"></script>
+    </body>
+  </form>
+</html>

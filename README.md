@@ -1,4 +1,16 @@
+# Ruby on Rails Tutorial: first application
+
+
+提交一次
+ This is the first application for the
+
+ [*Ruby on Rails Tutorial*](http://railstutorial.org/)
+
+ by [Michael Hartl](http://michaelhartl.com/)
+
 ## Happy Vimfile
+
+Hello world
 
 -> 请备份你之前的vimrc!!!
 
@@ -28,4 +40,3 @@ sudo apt-get install ack-grep
 ```
 
 bash <(curl -s https://raw.github.com/gialib/vimfile/master/install.sh)
-

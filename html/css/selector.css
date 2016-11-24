@@ -1,0 +1,49 @@
+.content:first-child{
+  paddind-top:0;
+  margin-top:1em;
+}
+.content:last-child{
+  paddind-top:0;
+  margin-bottom:1em;
+}
+.content{
+  column-count:3;
+  column-gap:30px;
+  column-rule:1px dashed black;
+}
+body{
+  text-align:center;
+}
+header{
+  margin-bottom:1em;
+  background-color:black;
+  color:white;
+  font-family:myFont;
+}
+footer{
+  margin-top:1em;
+  background-color:black;
+  color:white;
+  font-family:myFont;
+}
+
+.overflow{
+  text-overflow:ellipsis;
+  overflow:auto;
+  width:100px;
+  margin:auto;
+  height:100px;
+  top:60px;
+  left:0;
+  right:auto;
+  bottom:auto;
+  position:fixed;
+  //background:url('../ssss.jpg') no-repeat;
+  background-size:auto 100%;
+  //border:10px solid;
+  //border-radius:50%;
+  background:radial-gradient(gray,white,gray);
+  background-origin:content-box;
+  white-space:nowrap;
+}
+

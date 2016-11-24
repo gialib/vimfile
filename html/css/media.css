@@ -1,0 +1,73 @@
+body{
+  margin:0;
+}
+.container{
+  width:80%;
+  margin:auto;
+}
+.header{
+  background-color:#333;
+}
+li a{
+  color:white;
+}
+/*宽度480以下的设备*/
+@media screen and (max-width:480px){
+  .logo{height:40px;display:block;}
+  .header{height:40px;}
+  li{
+    line-height:50px;
+    padding:0 15px 0 15px;
+    display:block;
+    background-color:#333;
+    text-align:center;
+    border-top:1px solid white;
+}
+}
+/*宽度在480到765之间的设备*/
+@media screen and (min-width:480px) and(max-width:765px){
+  .logo{height:50px;display:block;}
+  .header{height:50px;}
+  li{
+    line-height:50px;
+    padding:0 15px 0 15px;
+    display:block;
+    background-color:#333;
+    text-align:center;
+    border-top:1px solid white;
+}
+}
+/*屏幕宽度在765以上的设备*/
+@media screen and (min-width:765px){
+  .logo{height:60px;display:block;float:left;}
+  .header{height:60px;}
+  li{
+    line-height:60px;
+    padding:0 15px 0 15px;
+    display:block;
+    float:left;
+}
+}
+
+.vote a{
+  text-align:center;
+  text-decoration:none;
+  color:white;
+  padding:15px 0 15px 0;
+  margin:5px 15px; 
+  -webkit-box-flex:1;
+  width:40px;
+  display:block;
+  float:left;
+}
+.vote{
+  display:-webkit-box;
+  -webkit-box-pack:justify;
+  width:100%;
+}
+.digg{
+  background:red;
+}
+.bury{
+  background:blue;
+}
